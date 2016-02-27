@@ -10,8 +10,7 @@ namespace AutoMapperTest.Mapper
    static class MapperResolver
    {
       private static IMapper mapper = null;
-      private static IMapperConfiguration config = null;
-
+     
       public static IMapper GetMapper()
       {
          return mapper;         
